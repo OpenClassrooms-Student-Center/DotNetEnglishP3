@@ -90,7 +90,7 @@ namespace P3AddNewFunctionalityDotNetCore.Models.Services
             }
         }
 
-        // TODO this is an example method, remove it for 
+        // TODO this is an example method, remove it and perform model validation using data annotations
         public List<string> CheckProductModelErrors(ProductViewModel product)
         {
             List<string> modelErrors = new List<string>();
